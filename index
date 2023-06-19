@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+      function botao1(){
+        // var resp = confirm("Você esta certo disso posso perguntar?");
+       // var resp = prompt("Informe a sua data de nascimento", "dd,MM,aaaa");
+        // alert(resp);
+
+       // window.document.write("EU NÃO ACREDITO");
+       // document.write(" Pior que é verdade")
+
+       const element = document.getElementById("p1");
+       elemente.innerHTML = "Novo Texto";
+      }
+    </script>
+</head>
+<body>
+    <h1>HelloJs</h1>
+    <p id="p1">Olá mundo</p>
+    <input id="input1"></body></input>
+    <button type="button" onclick="botao1()">Clique em mim</button>
+</body>
+</html>
